@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030114A72A7B5F2400C3D5BF /* blossomwords_commonlyaskedquestionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114A62A7B5F2400C3D5BF /* blossomwords_commonlyaskedquestionsApp.swift */; };
+		030114A92A7B5F2400C3D5BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114A82A7B5F2400C3D5BF /* ContentView.swift */; };
+		030114AB2A7B5F2600C3D5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030114AA2A7B5F2600C3D5BF /* Assets.xcassets */; };
+		030114AE2A7B5F2600C3D5BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030114AD2A7B5F2600C3D5BF /* Preview Assets.xcassets */; };
+		030114B82A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114B72A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsTests.swift */; };
+		030114C22A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114C12A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift */; };
+		030114C42A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114C32A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030114B42A7B5F2600C3D5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0301149B2A7B5F2400C3D5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030114A22A7B5F2400C3D5BF;
+			remoteInfo = "blossomwords-commonlyaskedquestions";
+		};
+		030114BE2A7B5F2600C3D5BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0301149B2A7B5F2400C3D5BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030114A22A7B5F2400C3D5BF;
+			remoteInfo = "blossomwords-commonlyaskedquestions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030114A32A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "blossomwords-commonlyaskedquestions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030114A62A7B5F2400C3D5BF /* blossomwords_commonlyaskedquestionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomwords_commonlyaskedquestionsApp.swift; sourceTree = "<group>"; };
+		030114A82A7B5F2400C3D5BF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		030114AA2A7B5F2600C3D5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030114AD2A7B5F2600C3D5BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		030114B32A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blossomwords-commonlyaskedquestionsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030114B72A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomwords_commonlyaskedquestionsTests.swift; sourceTree = "<group>"; };
+		030114BD2A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blossomwords-commonlyaskedquestionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030114C12A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomwords_commonlyaskedquestionsUITests.swift; sourceTree = "<group>"; };
+		030114C32A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030114A02A7B5F2400C3D5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114B02A7B5F2600C3D5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114BA2A7B5F2600C3D5BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0301149A2A7B5F2400C3D5BF = {
+			isa = PBXGroup;
+			children = (
+				030114A52A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions */,
+				030114B62A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsTests */,
+				030114C02A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests */,
+				030114A42A7B5F2400C3D5BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030114A42A7B5F2400C3D5BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030114A32A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions.app */,
+				030114B32A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsTests.xctest */,
+				030114BD2A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030114A52A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions */ = {
+			isa = PBXGroup;
+			children = (
+				030114A62A7B5F2400C3D5BF /* blossomwords_commonlyaskedquestionsApp.swift */,
+				030114A82A7B5F2400C3D5BF /* ContentView.swift */,
+				030114AA2A7B5F2600C3D5BF /* Assets.xcassets */,
+				030114AC2A7B5F2600C3D5BF /* Preview Content */,
+			);
+			path = "blossomwords-commonlyaskedquestions";
+			sourceTree = "<group>";
+		};
+		030114AC2A7B5F2600C3D5BF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				030114AD2A7B5F2600C3D5BF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		030114B62A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				030114B72A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsTests.swift */,
+			);
+			path = "blossomwords-commonlyaskedquestionsTests";
+			sourceTree = "<group>";
+		};
+		030114C02A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030114C12A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift */,
+				030114C32A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift */,
+			);
+			path = "blossomwords-commonlyaskedquestionsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030114A22A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030114C72A7B5F2600C3D5BF /* Build configuration list for PBXNativeTarget "blossomwords-commonlyaskedquestions" */;
+			buildPhases = (
+				0301149F2A7B5F2400C3D5BF /* Sources */,
+				030114A02A7B5F2400C3D5BF /* Frameworks */,
+				030114A12A7B5F2400C3D5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "blossomwords-commonlyaskedquestions";
+			productName = "blossomwords-commonlyaskedquestions";
+			productReference = 030114A32A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030114B22A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030114CA2A7B5F2600C3D5BF /* Build configuration list for PBXNativeTarget "blossomwords-commonlyaskedquestionsTests" */;
+			buildPhases = (
+				030114AF2A7B5F2600C3D5BF /* Sources */,
+				030114B02A7B5F2600C3D5BF /* Frameworks */,
+				030114B12A7B5F2600C3D5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030114B52A7B5F2600C3D5BF /* PBXTargetDependency */,
+			);
+			name = "blossomwords-commonlyaskedquestionsTests";
+			productName = "blossomwords-commonlyaskedquestionsTests";
+			productReference = 030114B32A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030114BC2A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030114CD2A7B5F2600C3D5BF /* Build configuration list for PBXNativeTarget "blossomwords-commonlyaskedquestionsUITests" */;
+			buildPhases = (
+				030114B92A7B5F2600C3D5BF /* Sources */,
+				030114BA2A7B5F2600C3D5BF /* Frameworks */,
+				030114BB2A7B5F2600C3D5BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030114BF2A7B5F2600C3D5BF /* PBXTargetDependency */,
+			);
+			name = "blossomwords-commonlyaskedquestionsUITests";
+			productName = "blossomwords-commonlyaskedquestionsUITests";
+			productReference = 030114BD2A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0301149B2A7B5F2400C3D5BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					030114A22A7B5F2400C3D5BF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					030114B22A7B5F2600C3D5BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 030114A22A7B5F2400C3D5BF;
+					};
+					030114BC2A7B5F2600C3D5BF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 030114A22A7B5F2400C3D5BF;
+					};
+				};
+			};
+			buildConfigurationList = 0301149E2A7B5F2400C3D5BF /* Build configuration list for PBXProject "blossomwords-commonlyaskedquestions" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0301149A2A7B5F2400C3D5BF;
+			productRefGroup = 030114A42A7B5F2400C3D5BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030114A22A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions */,
+				030114B22A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsTests */,
+				030114BC2A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030114A12A7B5F2400C3D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030114AE2A7B5F2600C3D5BF /* Preview Assets.xcassets in Resources */,
+				030114AB2A7B5F2600C3D5BF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114B12A7B5F2600C3D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114BB2A7B5F2600C3D5BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0301149F2A7B5F2400C3D5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030114A92A7B5F2400C3D5BF /* ContentView.swift in Sources */,
+				030114A72A7B5F2400C3D5BF /* blossomwords_commonlyaskedquestionsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114AF2A7B5F2600C3D5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030114B82A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030114B92A7B5F2600C3D5BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030114C22A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift in Sources */,
+				030114C42A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030114B52A7B5F2600C3D5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030114A22A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions */;
+			targetProxy = 030114B42A7B5F2600C3D5BF /* PBXContainerItemProxy */;
+		};
+		030114BF2A7B5F2600C3D5BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030114A22A7B5F2400C3D5BF /* blossomwords-commonlyaskedquestions */;
+			targetProxy = 030114BE2A7B5F2600C3D5BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		030114C52A7B5F2600C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030114C62A7B5F2600C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030114C82A7B5F2600C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blossomwords-commonlyaskedquestions/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomwords-commonlyaskedquestions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		030114C92A7B5F2600C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"blossomwords-commonlyaskedquestions/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomwords-commonlyaskedquestions";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		030114CB2A7B5F2600C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomwords-commonlyaskedquestionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blossomwords-commonlyaskedquestions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blossomwords-commonlyaskedquestions";
+			};
+			name = Debug;
+		};
+		030114CC2A7B5F2600C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomwords-commonlyaskedquestionsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blossomwords-commonlyaskedquestions.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/blossomwords-commonlyaskedquestions";
+			};
+			name = Release;
+		};
+		030114CE2A7B5F2600C3D5BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomwords-commonlyaskedquestionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "blossomwords-commonlyaskedquestions";
+			};
+			name = Debug;
+		};
+		030114CF2A7B5F2600C3D5BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "KWK.blossomwords-commonlyaskedquestionsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "blossomwords-commonlyaskedquestions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0301149E2A7B5F2400C3D5BF /* Build configuration list for PBXProject "blossomwords-commonlyaskedquestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030114C52A7B5F2600C3D5BF /* Debug */,
+				030114C62A7B5F2600C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030114C72A7B5F2600C3D5BF /* Build configuration list for PBXNativeTarget "blossomwords-commonlyaskedquestions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030114C82A7B5F2600C3D5BF /* Debug */,
+				030114C92A7B5F2600C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030114CA2A7B5F2600C3D5BF /* Build configuration list for PBXNativeTarget "blossomwords-commonlyaskedquestionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030114CB2A7B5F2600C3D5BF /* Debug */,
+				030114CC2A7B5F2600C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030114CD2A7B5F2600C3D5BF /* Build configuration list for PBXNativeTarget "blossomwords-commonlyaskedquestionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030114CE2A7B5F2600C3D5BF /* Debug */,
+				030114CF2A7B5F2600C3D5BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0301149B2A7B5F2400C3D5BF /* Project object */;
+}
