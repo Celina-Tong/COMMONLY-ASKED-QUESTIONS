@@ -1,3 +1,4 @@
+
 //
 //  ContentView.swift
 //  blossomwords-commonlyaskedquestions
@@ -8,19 +9,46 @@
 import SwiftUI
 
 struct ContentView: View {
+    private var listOfQuestion = questionList
+    @State var searchText = ""
+    
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            List{
+                ForEach(questions, id: \.self) { question in
+                    HStack {
+                        Text(question.capitalized)
+                        Spacer()
+                    }
+                    .padding()
+                    
+                }
+                
+            }
+           
+            .searchable(text: $searchText)
+            .navigationTitle("Common Questions")
+            .font(.body)
+            
+            var questions: [String] {
+                let lcQuestions = listOfQuestion.map { $0.lowercased()}
+                
+                return searchText == "" ? lcQuestions : lcQuestions.filter {
+                    $0.contains(searchText.lowercased())
+                }
+                
+            }
         }
-        .padding()
+        
     }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    
+    
+    
+    struct ContentView_Previews: PreviewProvider {
+        static var previews: some View {
+            ContentView()
+        }
     }
 }

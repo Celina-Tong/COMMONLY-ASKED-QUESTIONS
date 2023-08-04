@@ -14,6 +14,7 @@
 		030114B82A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114B72A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsTests.swift */; };
 		030114C22A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114C12A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift */; };
 		030114C42A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114C32A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift */; };
+		030114D12A7B600500C3D5BF /* questiondata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030114D02A7B600500C3D5BF /* questiondata.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		030114BD2A7B5F2600C3D5BF /* blossomwords-commonlyaskedquestionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "blossomwords-commonlyaskedquestionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		030114C12A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomwords_commonlyaskedquestionsUITests.swift; sourceTree = "<group>"; };
 		030114C32A7B5F2600C3D5BF /* blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blossomwords_commonlyaskedquestionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		030114D02A7B600500C3D5BF /* questiondata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questiondata.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				030114A82A7B5F2400C3D5BF /* ContentView.swift */,
 				030114AA2A7B5F2600C3D5BF /* Assets.xcassets */,
 				030114AC2A7B5F2600C3D5BF /* Preview Content */,
+				030114D02A7B600500C3D5BF /* questiondata.swift */,
 			);
 			path = "blossomwords-commonlyaskedquestions";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				030114A92A7B5F2400C3D5BF /* ContentView.swift in Sources */,
 				030114A72A7B5F2400C3D5BF /* blossomwords_commonlyaskedquestionsApp.swift in Sources */,
+				030114D12A7B600500C3D5BF /* questiondata.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
